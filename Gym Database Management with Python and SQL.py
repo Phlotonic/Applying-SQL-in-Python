@@ -8,7 +8,7 @@ def create_connection():
             host='localhost',
             database='gym_db',
             user='root',
-            password='CapricornDog5!'
+            password='*************'
         )
         if connection.is_connected():
             print("Connected to MySQL database")
