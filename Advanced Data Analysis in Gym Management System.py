@@ -6,7 +6,11 @@ def connect_to_db():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
+<<<<<<< HEAD
             password='***************',
+=======
+            password='**************',
+>>>>>>> 1ec95add451b1e567ef459244fd29fe46abe7273
             database='gym_db'
         )
         return connection
